@@ -1,4 +1,5 @@
 import React from "react";
+import { createRoot } from 'react-dom/client';
 import MyCounter from "../src/Counter";
 import Card, {CardGlassmorph} from "../src/Card";
 import Image  from "../src/Image"
@@ -10,7 +11,7 @@ export default {
   },
 };
 
-export const storyMyounter = () => <MyCounter></MyCounter>;
 export const storyCard = () => <Card></Card>;
 export const storyCardGlassMorph = () => <CardGlassmorph></CardGlassmorph>;
-export const storyImage = () => <Image src={imagesrc} />
+export const storyImage = () => <Image/>
+export const storyMyounter = () => <MyCounter></MyCounter>;
