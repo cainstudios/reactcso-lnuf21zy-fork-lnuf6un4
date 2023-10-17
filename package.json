@@ -1,0 +1,7 @@
+{
+  "name": "@components-studio/cainstudios.reactcso-lnuf21zy-fork-lnuf6un4",
+  "version": "0.0.0",
+  "scripts": {
+    "serve": "npx cso-cli@latest serve uhyIe6ab1LT3vC6PdUQz --open"
+  }
+}
